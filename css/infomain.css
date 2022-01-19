@@ -78,6 +78,39 @@ body::-webkit-scrollbar-track{
   .header-page__link:active {
     opacity: 0.8;
   }
+  .container-menu {
+    display: none;
+  }
+  .navbar-toggler {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: 900;
+    font-size: 18px;
+    position: relative;
+    transition: color;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .navbar-toggler:hover {
+    color: #1f1f1f;
+    background: #fff;
+  }
+  .navbar-toggler:active {
+    opacity: 0.8;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .nav-link:hover {
+    color: #1f1f1f;
+    background: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .nav-link:active {
+    opacity: 0.8;
+  }
 
   .section__about {
     padding: 0;
@@ -247,4 +280,40 @@ body::-webkit-scrollbar-track{
   }
   .contact {
     font-size: 22px; 
+  }
+
+  @media (max-width: 1250px){
+    .header-page__nav{
+      display: none;
+    }
+  }
+  @media (max-width: 962px){
+    .container-menu{
+      display: block;
+    }
+    .menuo {
+      color: white;
+      text-decoration: none;
+      display: block;
+      font-weight: 900;
+      font-size: 18px;
+      position: relative;
+      transition: color;
+      font-family: 'Quicksand', sans-serif;
+    }
+  }
+  @media (max-width: 375px){
+    .container-menu{
+      display: block;
+    }
+    .menuo {
+      color: white;
+      text-decoration: none;
+      display: block;
+      font-weight: 900;
+      font-size: 18px;
+      position: relative;
+      transition: color;
+      font-family: 'Quicksand', sans-serif;
+    }
   }
