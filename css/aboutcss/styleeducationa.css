@@ -1,5 +1,3 @@
-/*   header   */
-
 .html {
   box-sizing: border-box;
   margin:0;
@@ -79,26 +77,8 @@ body::-webkit-scrollbar-track{
 .header-page_li{
   padding: 15px 35px;
 }
-
-/**/
-
-.main_table{
-  margin-top : -10px;
-}
-table{
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
+.container{
+  margin-top:70px;
 }
 
 /*   footer   */
