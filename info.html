@@ -14,50 +14,70 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 <link rel ="stylesheet" href="css/infomain.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 </head>
 
 <body>
   
-  <header class="header-page">
-    <div class="container header-page__container">
-      <div class="header-page__start">
-        <div class="logo">
-          <a href="index.html">
-          <img class="logo__img" src="img/logo.png" alt="" width="196" height="47.6">
-        </a>
+  <div class="container">
+    <header class="header-page">
+      <div class="container header-page__container">
+        <div class="header-page__start">
+          <div class="logo">
+            <a href="index.html">
+            <img class="logo__img" src="img/logo.png" alt="" width="196" height="47.6">
+          </a>
+          </div>
         </div>
-      </div>
-      <div class="header-page__end">
-        <nav class="header-page__nav">
-          <ul class="header-page__ul">
-            <li class="header-page__li">
-              <a class="header-page__link" href="universities.html">
-                <span class="header-page__text">Universities</span>
-              </a>
-            </li>
-            <li class="header-page__li">
-              <a class="header-page__link" href="./about/about.html">
-                <span class="header-page__text">Edu</span>
-              </a>
-            </li>
-            <li class="header-page__li">
-              <a class="header-page__link" href="news.html">
-                <span class="header-page__text">News</span>
-              </a>
-            </li>
-            <li class="header-page__li">
-              <a class="header-page__link" href="info.html">
-                <span class="header-page__text">Info</span>
-              </a>
-            </li>
-          </ul>       
-        </nav>
+        <div class="header-page__end">
+          <nav class="header-page__nav">
+  
+              <ul class="header-page__ul">
+                <li class="header-page__li">
+                  <a class="header-page__link" href="main.html">
+                    <span class="header-page__text">Universities</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="about.html">
+                  <span class="header-page__text">Edu</span>
+                </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="#catalog">
+                    <span class="header-page__text">News</span>
+                  </a>
+                </li>
+                <li class="header-page__li">
+                  <a class="header-page__link" href="info.html">
+                    <span class="header-page__text">Info</span>
+                  </a>
+                </li>
+              </ul>      
+          </nav>
           
+          <div class="container container-menu">
+            <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+              <div class="container container-menu">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="fa fa-bars menuo"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Universities</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="info.html" class="nav-link">Info</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+  
       </div>
-    </div>
-  </header>
+    </header>
+  </div> 
 
   <section id="search" class="search">
     <div class="title_about">
@@ -120,9 +140,9 @@
       <h4 class="footer_link">links</h4>
       <ul>
         <li class="footer_links"><a href="index.html">main</a></li>
-        <li class="footer_links"><a href="universities.html">Universities</a></li>
-        <li class="footer_links"><a href="./about/about.html">Education</a></li>
-        <li class="footer_links"><a href="news.html">News</a></li>
+        <li class="footer_links"><a href="main.html">Universities</a></li>
+        <li class="footer_links"><a href="about.html">Education</a></li>
+        <li class="footer_links"><a href="#">News</a></li>
       </ul>
     </div>
 
@@ -137,6 +157,10 @@
       
     </div>
   </footer>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 
 </body>
