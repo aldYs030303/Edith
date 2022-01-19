@@ -1,0 +1,379 @@
+body {
+    font-family: "Quicksand";
+    scroll-behavior: smooth;
+    background: url("../img/fawn-wooden.png");
+    opacity: 0.91;
+}
+.container-fluid {
+    background-color: rgb(224, 221, 221);
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #0d1420;
+}
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #a7a7c4;
+}
+
+/* header page */
+
+.navbar {
+    z-index: 2;
+}
+
+.navbar-brand {
+    margin-left: 150px;
+}
+
+.header-page {
+    margin-right: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 19px;
+    transition: 0.2s;
+}
+
+.nav-item:hover {
+    border: 1px solid #000;
+    box-shadow: 1.6px 1.6px black;
+    border-radius: 40%;
+    background-color: rgb(167, 83, 68);
+}
+
+.news-dropdown:hover {
+    border-radius: 0;
+    border: 1px solid #000;
+    box-shadow: 1.6px 1.6px black;
+    background-color: rgb(167, 83, 68);
+}
+
+.container-fluid {
+    margin-top: 73px;
+}
+
+/* left and right block */
+
+.left-menu {
+    text-align: center;
+    margin-top: 73px;
+    height: 100%;
+    background-color: #343a40;
+}
+.left-menu-btn {
+    text-shadow: 1px 1px 5px wheat;
+    width: 100%;
+}
+.left-menu-text {
+    max-height: 500px;
+    text-shadow: 2px 2px 5px wheat;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.left-menu-list {
+    text-align: left;
+}
+.left-menu-text::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+.left-menu-text::-webkit-scrollbar-thumb {
+    background-color: #0d1420;
+}
+.left-menu-text::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+    background-color: #a7a7c4;
+}
+
+.left-menu-underblock {
+    width: 100%;
+    margin-top: 20px;
+}
+.left-icon {
+    margin-top: 55px;
+    color: white;
+    font-size: 2rem;
+    transition: 0.1s;
+    text-shadow: 3px 3px black;
+}
+.left-icon:hover {
+    font-size: 30px;
+    color: tomato;
+}
+
+.left-icon-large {
+    justify-content: center;
+    font-size: 8rem;
+    margin-bottom: 2rem;
+    color: #ababb4;
+}
+
+/* main-news */
+
+.full-news {
+    height: 100%;
+}
+
+.col-sm {
+    margin-left: 254px;
+    font-family: "Overpass";
+}
+
+.main-news-block {
+    text-shadow: 0.5px 0.5px 1px rgb(148, 148, 148);
+}
+
+.upper-news {
+    margin: 70px 200px 0 0;
+    height: 100%;
+}
+
+.upper-news-main {
+    margin-left: 11.3rem;
+    width: 70%;
+}
+
+.news-date {
+    font-size: 10px;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.news-image {
+    border: 0.5px solid #000;
+    border-radius: 25%;
+    transition: 0.4s;
+}
+
+.inside-block-news_one {
+    border: 1px solid #000;
+}
+
+.upper-news-secblock {
+    margin: 0 0 3rem 0;
+    height: 225px;
+    text-align: left;
+}
+
+.news-name-main {
+    font-size: 32px;
+    color: black;
+    font-weight: 800;
+    text-align: left;
+    text-decoration: none;
+}
+
+.upper-news-main:hover a {
+    color: black;
+    text-decoration-thickness: 2.3px;
+}
+.upper-news-main:hover img {
+    opacity: 0.6;
+    border-radius: 0;
+}
+
+.news-name-second {
+    line-height: 1.2;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+}
+
+.upper-news-secblock:hover a {
+    color: black;
+    text-decoration-thickness: 2.3px;
+}
+.upper-news-secblock:hover img {
+    opacity: 0.6;
+    border-radius: 0;
+}
+
+.news_1-undertext {
+    opacity: 0.5;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+/* dec lines */
+
+.dec-line-upper {
+    margin-right: 27px;
+    background: #343a40;
+    width: 0.5px;
+    border-radius: 50%;
+    height: 35rem;
+    opacity: 0.4;
+}
+.dec-line-underupper {
+    background: #343a40;
+    margin-top: 10px;
+    margin-left: 12.3rem;
+    width: 80%;
+    border-radius: 50%;
+    height: 0.5px;
+    opacity: 0.4;
+}
+
+/* lower news side */
+
+.lower-news {
+    height: 200px;
+    margin: 2rem 13rem 0 12rem;
+}
+
+.news-name-second-lower {
+    line-height: 1.2;
+    font-weight: 800;
+    font-size: 18px;
+    color: black;
+    text-align: right;
+}
+
+.lower-section {
+    width: 350px;
+    margin-left: 15rem;
+}
+
+.lower-news-secblock {
+    text-align: center;
+}
+
+.carousel-news-icon {
+    font-size: 32px;
+}
+.carousel-news-icon:hover {
+    color: rgb(250, 125, 103);
+}
+
+.news-lower-image {
+    transition: 0.5s;
+    border: 15px solid rgb(204, 201, 201);
+}
+
+.lower-news-secblock:hover img {
+    border: 15px solid rgb(88, 85, 85);
+}
+.lower-news-secblock:hover a {
+    color: black;
+    text-decoration-thickness: 2.3px;
+}
+
+@media (max-width: 1000px) {
+    .left-menu {
+        display: none;
+    }
+}
+
+/* FORM */
+
+.section-form {
+    background-color: #ababb4;
+    border-top: 10px solid #343a40;
+    width: 85.2%;
+    margin: 15rem 15rem 0 14.8rem;
+}
+
+.form-last-text {
+    font-size: 32px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+    text-align: center;
+    color: #343a40;
+    text-shadow: 1px 1px rgb(110, 65, 57);
+}
+
+/* NEWS PAGES */
+
+.newspage-one {
+    text-align: left;
+}
+
+.news-block {
+    width: 707px;
+    margin: 5rem 8rem 8rem 16rem;
+}
+
+.title-block {
+    padding: 0;
+}
+
+.title-news {
+    max-width: 100%;
+    display: block;
+}
+
+.subtitle-news {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-news {
+    font-size: 18px;
+    font-weight: 550;
+}
+.dec-line-newspages {
+    background-color: #0f1114;
+    width: 100%;
+    border-radius: 10%;
+    height: 5px;
+    opacity: 0.9;
+}
+
+.button-news-group {
+    margin-left: 13.8rem;
+}
+
+.button-news {
+    margin-top: 2rem;
+    width: 120px;
+}
+
+/* header */
+
+#footer-page {
+    height: 180px;
+    margin-left: 254px;
+    color: white;
+    background-color: #343a40;
+}
+.footer-col {
+    margin: 20px 0 0 10rem;
+}
+.footer-row {
+    width: 100%;
+}
+.footer-col ul {
+    list-style-type: none;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+    font-family: "Quicksand", sans-serif;
+}
+.footer-link {
+    margin-left: 38px;
+}
+.footer-col ul li a:hover {
+    text-shadow: 1px 1px rgb(68, 11, 11);
+    color: tomato;
+    padding-left: 10px;
+}
+
+.phone {
+    color: white;
+}
+.phone:hover {
+    color: tomato;
+    text-decoration: none;
+}
